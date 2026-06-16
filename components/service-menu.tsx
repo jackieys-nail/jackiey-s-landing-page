@@ -34,11 +34,15 @@ export function ServiceMenu() {
     <section id="services" className="bg-blush px-4 py-24 sm:py-28">
       <div className="mx-auto max-w-3xl text-center">
         <p className="font-sans text-xs font-medium uppercase tracking-[0.35em] text-gold">
-          The Menu
+          The Experience Menu
         </p>
         <h2 className="mt-4 text-balance font-serif text-4xl font-medium tracking-tight text-foreground sm:text-5xl">
-          Services & Pricing
+          Invest in Yourself
         </h2>
+        <p className="mx-auto mt-5 max-w-xl text-pretty font-sans text-base font-light leading-relaxed text-muted-foreground">
+          Every service is performed exclusively by Jaqueline, tailored to your
+          nail shape, lash line, and personal style.
+        </p>
         <div className="gold-rule mx-auto mt-6 h-px w-24" />
       </div>
 

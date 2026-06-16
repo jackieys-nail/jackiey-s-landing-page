@@ -15,8 +15,20 @@ export function Portfolio() {
           The Portfolio
         </p>
         <h2 className="mt-4 text-balance font-serif text-4xl font-medium tracking-tight text-foreground sm:text-5xl">
-          A look at the work
+          Real Work. Real Results.
         </h2>
+        <p className="mx-auto mt-5 max-w-xl text-pretty font-sans text-base font-light leading-relaxed text-muted-foreground">
+          Every photo is a service performed by Jaqueline. Follow{' '}
+          <a
+            href="https://instagram.com/jackieymata"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-gold underline-offset-4 transition-colors hover:underline"
+          >
+            @jackieymata
+          </a>{' '}
+          for daily inspiration.
+        </p>
         <div className="gold-rule mx-auto mt-6 h-px w-24" />
       </div>
 

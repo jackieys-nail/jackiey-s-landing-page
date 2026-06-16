@@ -1,6 +1,7 @@
 import { BookingProvider } from '@/components/booking-provider'
 import { StickyNav } from '@/components/sticky-nav'
 import { Hero } from '@/components/hero'
+import { TrustBar } from '@/components/trust-bar'
 import { ServiceMenu } from '@/components/service-menu'
 import { MeetArtist } from '@/components/meet-artist'
 import { Portfolio } from '@/components/portfolio'
@@ -14,6 +15,7 @@ export default function Page() {
       <StickyNav />
       <main>
         <Hero />
+        <TrustBar />
         <ServiceMenu />
         <MeetArtist />
         <Portfolio />

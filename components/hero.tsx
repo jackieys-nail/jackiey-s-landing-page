@@ -26,15 +26,16 @@ export function Hero() {
           Nail Artist & Lash Tech
         </p>
 
-        <h1 className="text-balance font-serif text-5xl font-medium leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
-          Beauty that feels
+        <h1 className="text-balance font-serif text-4xl font-medium leading-[1.08] tracking-tight text-foreground sm:text-6xl md:text-7xl">
+          Your Nails. Your Lashes.
           <br />
-          <span className="italic text-gold">made for you</span>
+          <span className="italic text-gold">Your Signature Look.</span>
         </h1>
 
         <p className="mx-auto mt-6 max-w-xl text-pretty font-sans text-base font-light leading-relaxed text-muted-foreground sm:text-lg">
-          Hand-crafted Gel-X manicures and lash artistry in Norfolk, Virginia.
-          Every set is done by Jaqueline, with intention, precision, and care.
+          Precision nail artistry and lash extensions by Jaqueline. Norfolk&apos;s
+          independent beauty specialist for women who refuse to settle for
+          ordinary.
         </p>
 
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">

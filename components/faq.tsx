@@ -2,23 +2,24 @@
 
 import { useState } from 'react'
 import { cn } from '@/lib/utils'
+import { ChevronIcon } from './icons'
 
 const faqs = [
   {
+    q: 'Do I need to book in advance?',
+    a: 'Yes. Jackiey\u2019s is by appointment only. Walk-ins are not available. Booking through Square guarantees your spot and gives you a confirmation instantly.',
+  },
+  {
     q: 'How long does Gel-X last?',
-    a: 'With proper care, Gel-X typically lasts two to three weeks before a fill or removal. I recommend booking your next appointment around the three week mark to keep your nails healthy and looking their best.',
+    a: 'With proper aftercare, Gel-X extensions from Jackiey\u2019s typically last 3 to 4 weeks. Jaqueline will walk you through everything you need to do to keep your set looking fresh.',
   },
   {
-    q: 'How long do lash extensions stay on?',
-    a: 'Lash extensions follow your natural lash cycle and generally retain well for two to three weeks. To maintain a full look, most clients come in for a refill every two weeks. Gentle aftercare makes a big difference in retention.',
+    q: 'What is your cancellation policy?',
+    a: 'We ask for at least 24 hours\u2019 notice for cancellations or rescheduling. Late cancellations or no-shows may be subject to a fee. Life happens, just let us know in advance.',
   },
   {
-    q: 'What is the cancellation policy?',
-    a: 'Your appointment is reserved just for you. I kindly ask for at least 24 hours notice to cancel or reschedule. Cancellations within 24 hours, or no-shows, may be subject to a fee so I can continue offering dedicated one-on-one time to every client.',
-  },
-  {
-    q: 'How should I prepare for my appointment?',
-    a: 'For lashes, please arrive with clean lashes and no eye makeup or mascara. For nails, come with bare nails if possible. If you have inspiration photos, bring them along so we can design something perfect for you.',
+    q: 'Can I bring nail inspo photos?',
+    a: 'Absolutely, and encouraged. The more reference you bring, the better Jaqueline can personalize your design to match your vision.',
   },
 ]
 
@@ -32,7 +33,7 @@ export function Faq() {
           Good to Know
         </p>
         <h2 className="mt-4 text-balance font-serif text-4xl font-medium tracking-tight text-foreground sm:text-5xl">
-          Before you book
+          Your Questions, Answered
         </h2>
         <div className="gold-rule mx-auto mt-6 h-px w-24" />
       </div>
@@ -46,22 +47,21 @@ export function Faq() {
                 type="button"
                 onClick={() => setOpen(isOpen ? null : i)}
                 aria-expanded={isOpen}
-                className="flex w-full items-center justify-between gap-6 py-6 text-left"
+                className="flex w-full items-center justify-between gap-6 py-6 text-left transition-colors duration-300 hover:text-gold"
               >
                 <span className="font-serif text-xl font-medium tracking-tight text-foreground sm:text-2xl">
                   {item.q}
                 </span>
                 <span
                   className={cn(
-                    'relative flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-gold/60 text-gold transition-transform duration-500',
-                    isOpen && 'rotate-[135deg] bg-gold/10',
+                    'flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gold/60 text-gold transition-all duration-300',
+                    isOpen && 'bg-gold/10',
                   )}
                 >
-                  <span className="absolute h-[1.5px] w-3.5 bg-gold" />
-                  <span
+                  <ChevronIcon
                     className={cn(
-                      'absolute h-3.5 w-[1.5px] bg-gold transition-opacity duration-300',
-                      isOpen && 'opacity-0',
+                      'h-4 w-4 transition-transform duration-300',
+                      isOpen && '-rotate-180',
                     )}
                   />
                 </span>
