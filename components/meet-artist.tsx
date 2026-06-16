@@ -5,7 +5,7 @@ export function MeetArtist() {
         <div className="relative mx-auto w-full max-w-sm">
           <div className="overflow-hidden rounded-[2rem] shadow-[0_30px_60px_-30px_rgba(120,90,50,0.4)]">
             <img
-              src="/portfolio/artist.png"
+              src="/portfolio/artist.PNG"
               alt="Jaqueline, nail artist and lash technician"
               className="aspect-[4/5] w-full object-cover"
             />
