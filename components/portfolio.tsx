@@ -1,9 +1,9 @@
 const work = [
-  { src: '/portfolio/gelx-nude.png', label: 'Gel-X Nude', span: 'row-span-2' },
+  { src: '/portfolio/gelx-nude.PNG', label: 'Gel-X Nude', span: 'row-span-2' },
   { src: '/portfolio/volume-lash.png', label: 'Volume Lashes', span: '' },
-  { src: '/portfolio/gelx-detailed.png', label: 'Detailed Design', span: '' },
+  { src: '/portfolio/gelx-detailed.PNG', label: 'Detailed Design', span: '' },
   { src: '/portfolio/classic-lash.png', label: 'Classic Lashes', span: '' },
-  { src: '/portfolio/gelx-minimal.png', label: 'Minimal Design', span: '' },
+  { src: '/portfolio/gelx-minimal.PNG', label: 'Minimal Design', span: '' },
   { src: '/portfolio/lash-lift.png', label: 'Lash Lift', span: 'row-span-2' },
 ]
 
